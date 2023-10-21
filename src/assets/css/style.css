@@ -73,15 +73,16 @@ body {
 
 #aba_informacoes {
     width: 280px;
+    padding-bottom: 870px;
     padding-top: 20px;
     background-color: #f9f9f9;
-    box-shadow: 0px 0px .6px 0px black;
+    box-shadow: 0px 0px .7px 0px black;
 }
 
 .dados_usuario {
     display: flex;
     align-items: center;
-    gap: .51rem;
+    gap: .6rem;
     justify-content: center;
 }
 
