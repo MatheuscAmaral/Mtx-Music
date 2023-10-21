@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Pixelify+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;700&family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    padding: 10px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px .7px 0px black;
+}
+
+.botoes {
+    display: flex;
+}
+
+#header {
+    display: flex;
+    background-color: #f9f9f9;
+    height: 75px;
+    width: 1600px;
+    justify-content: space-between;
+    box-shadow: 0px 0px .7px 0px black;
+}
+
+#header input {
+    padding: 10.5px;
+    border: 0;
+    width: 360px;
+    font-size: 12px;
+    box-shadow: 0px 0px .7px 0px black;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.searchbar i.fa-magnifying-glass {
+  position: absolute;
+  left: 355px;
+  top: 50%; 
+}
+
+
+#header_left {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 40px;
+}
+
+#header_right {
+    display: flex;
+}
+
+#header_right i {
+    padding: 15px;
+    box-shadow: 0px 0px .6px 0px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+}
+
+#aba_informacoes {
+    width: 280px;
+    padding-top: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px .6px 0px black;
+}
+
+.dados_usuario {
+    display: flex;
+    align-items: center;
+    gap: .51rem;
+    justify-content: center;
+}
+
+.dados_usuario img {
+    border-radius: 50%;
+}
+
+.dados_usuario strong {
+    font-size: 13px;
+}
+
+.estrutura {
+    display: flex;
+}
