@@ -10,36 +10,112 @@
 </head>
 <body>
     <div class="estrutura">
-        <div id="aba_informacoes">
-            <div class="dados_usuario">
-                <img src="/src/images/ex.jpg" alt="foto de perfil" width="40px">
-                <strong style="display: flex; align-items: center; gap: .5rem;">Matheus Amaral <i class="fa-solid fa-chevron-down fa-sm" style="color: #878787;"></i></strong>
+        <div class="left">
+            <div class="inicio">
+                <div class="dados_usuario">
+                    <img src="/src/images/ex.jpg" alt="foto de perfil" width="25px">
+                    <strong style="display: flex; align-items: center; gap: .5rem; color: white;">Matheus Amaral <i class="fa-solid fa-chevron-down fa-sm" style="color: #878787;"></i></strong>
+                </div>
+                <div style="display: flex; gap: 3rem; justify-content: center; align-items: center;">
+                    <span style="display: flex; align-items: center; gap: .6rem;;">
+                        <i class="fa-solid fa-house fa-sm" style="color: #878787;"></i>
+                        <p style="color: #8d8d8f; font-size: 14px;">Início</p>
+                    </span>
+                    <span style="display: flex; align-items: center; gap: .6rem;">
+                        <i class="fa-solid fa-magnifying-glass fa-sm" style="color: #878787;"></i>
+                        <p style="color: #8d8d8f; font-size: 14px;">Buscar</p>
+                    </span>
+                </div>
             </div>
             
+            <div id="aba_informacoes">
+                <div class="items">
+                    <h5 style="color: rgb(150, 150, 150); margin-left: 20px;">SUA BIBLIOTECA</h5>
+                    <span style="display: flex; align-items: center; gap: .8rem; margin-left: 30px;">
+                        <i class="fa-regular fa-clock fa-sm" style="color: #b7b7b8;"></i>
+                        <p style="color: #8d8d8f; font-size: 13px;">Tocadas recentemente</p>
+                    </span>
+                    <span style="display: flex; align-items: center; gap: .8rem; margin-left: 30px;">
+                        <i class="fa-solid fa-music fa-sm" style="color: #b7b5b5;"></i>
+                        <p style="color: #8d8d8f; font-size: 13px;">Músicas</p>
+                    </span>
+                    <span style="display: flex; align-items: center; gap: .8rem; margin-left: 30px;">
+                        <i class="fa-regular fa-image fa-sm" style="color: #b7b7b8;"></i>
+                        <p style="color: #8d8d8f; font-size: 13px;">Albums</p>
+                    </span>
+                    <span style="display: flex; align-items: center; gap: .8rem; margin-left: 30px;">
+                        <i class="fa-regular fa-user fa-sm" style="color: #b7b7b8;"></i>
+                        <p style="color: #8d8d8f; font-size: 13px;">Usuário</p>
+                    </span>
+                    <span style="display: flex; align-items: center; gap: .8rem; margin-left: 30px;">
+                        <i class="fa-regular fa-heart fa-sm" style="color: #b7b7b8;"></i>
+                        <p style="color: #8d8d8f; font-size: 13px;">Favoritos</p>
+                    </span>
+                </div>
+    
+                <div class="items">
+                    <h5 style="color: rgb(150, 150, 150); margin-left: 20px;">SUA PLAYLIST</h5>
+                    <span style="display: flex; align-items: center; gap: .8rem; margin-left: 30px;">
+                        <i class="fa-solid fa-circle fa" style="color: #75a3f2; font-size: 6px;"></i>
+                        <p style="color: #8d8d8f; font-size: 13px;">50 Músicas favoritas</p>
+                    </span>
+                    <span style="display: flex; align-items: center; gap: .8rem; margin-left: 30px;">
+                        <i class="fa-solid fa-circle fa" style="color: #75a3f2; font-size: 6px;"></i>
+                        <p style="color: #8d8d8f; font-size: 13px;"> Funk 2023</p>
+                    </span>
+                    <span style="display: flex; align-items: center; gap: .8rem; margin-left: 30px;">
+                        <i class="fa-solid fa-circle fa" style="color: #75a3f2; font-size: 6px;"></i>
+                        <p style="color: #8d8d8f; font-size: 13px;">Sertanejo</p>
+                    </span>
+                </div>
+    
+                <div class="items">
+                    <h5 style="color: rgb(150, 150, 150); margin-left: 20px;">COLEÇÃO</h5>
+                    <span style="display: flex; align-items: center; gap: .8rem; margin-left: 30px;">
+                        <i class="fa-solid fa-circle fa" style="color: #75a3f2; font-size: 6px;"></i>
+                        <p style="color: #8d8d8f; font-size: 13px;">50 Músicas favoritas</p>
+                    </span>
+                    <span style="display: flex; align-items: center; gap: .8rem; margin-left: 30px;">
+                        <i class="fa-solid fa-circle fa" style="color: #75a3f2; font-size: 6px;"></i>
+                        <p style="color: #8d8d8f; font-size: 13px;"> Funk 2023</p>
+                    </span>
+                    <span style="display: flex; align-items: center; gap: .8rem; margin-left: 30px;">
+                        <i class="fa-solid fa-circle fa" style="color: #75a3f2; font-size: 6px;"></i>
+                        <p style="color: #8d8d8f; font-size: 13px;">Sertanejo</p>
+                    </span>
+                </div>
+                
+            </div>
         </div>
-        <main>
+        <main id="main">
             <header id="header">
                 <div id="header_left">
                         <div class="botoes">
                             <button class="button" id="button_left">
-                                <i class="fa-solid fa-angle-left fa-lg" style="color: #494747;"></i>
+                                <i class="fa-solid fa-angle-left fa-lg" style="color: #f6f6f6;"></i>
                             </button>
+
                             <button class="button" id="button_right">
-                                <i class="fa-solid fa-angle-right fa-lg" style="color: #494747;"></i>
+                                <i class="fa-solid fa-angle-right fa-lg" style="color: #ffffff;"></i>
                             </button>
                         </div>
-                        <div class="searchbar">
+                        <!-- <div class="searchbar">
                             <input 
                                 type="text"
                                 placeholder="O que você quer ouvir?"
                                 id="search"
                             >
                             <i class="fa-solid fa-magnifying-glass fa-sm" style="color: #494747;"></i>
-                        </div>
+                        </div> -->
                 </div>
-                <div id="header_right">
-                    <i class="fa-solid fa-gear fa-sm" style="color: #494747;"></i>
-                    <i class="fa-solid fa-bell fa-sm" style="color: #494747;"></i>
+                <div id="header_r">
+                    <button>
+                        <i class="fa-solid fa-gear fa-sm" style="color: #ffffff;"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-bell fa-sm" style="color: #ffffff;"></i>
+                    </button>
+                    
                 </div>
             </header>
         </main>
