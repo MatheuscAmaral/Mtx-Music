@@ -153,4 +153,58 @@ body {
     margin-top: 10px;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card {
+    background-color: #252525;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-bottom: 40px;
+    transition: 0.3s;
+}
+
+.card:hover {
+
+    background-color: #313131;
+}
+
+.card img {
+    width: 150px;
+}
+
+.cards {
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 40px;
+}
+
+.play {
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(7, 172, 7);
+}
+
+#play {
+    position: fixed;
+    right: 73%;
+    top: 28.5%;
+}
 
